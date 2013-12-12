@@ -10,4 +10,6 @@
 
 }
 
+-(void)add:(id)arg;
+
 @end
