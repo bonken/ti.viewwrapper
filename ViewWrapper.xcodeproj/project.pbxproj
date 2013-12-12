@@ -28,10 +28,10 @@
 		24DE9E1211C5FE74003F90F6 /* TiViewwrapperModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiViewwrapperModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* TiViewwrapper_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiViewwrapper_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		CD0A1427185A3DD000D96B9F /* TiViewwrapperView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A1425185A3DD000D96B9F /* TiViewwrapperView.h */; };
-		CD0A1428185A3DD000D96B9F /* TiViewwrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A1426185A3DD000D96B9F /* TiViewwrapperView.m */; };
-		CD0A142B185A3E0A00D96B9F /* TiViewwrapperViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A1429185A3E0A00D96B9F /* TiViewwrapperViewProxy.h */; };
-		CD0A142C185A3E0A00D96B9F /* TiViewwrapperViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A142A185A3E0A00D96B9F /* TiViewwrapperViewProxy.m */; };
+		CD0A142F185A48E200D96B9F /* TiViewwrapperView.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A142D185A48E200D96B9F /* TiViewwrapperView.h */; };
+		CD0A1430185A48E200D96B9F /* TiViewwrapperView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A142E185A48E200D96B9F /* TiViewwrapperView.m */; };
+		CD0A1437185A49A300D96B9F /* TiViewwrapperViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A1435185A49A300D96B9F /* TiViewwrapperViewProxy.h */; };
+		CD0A1438185A49A300D96B9F /* TiViewwrapperViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0A1436185A49A300D96B9F /* TiViewwrapperViewProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +52,10 @@
 		24DE9E1011C5FE74003F90F6 /* TiViewwrapperModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiViewwrapperModuleAssets.m; path = Classes/TiViewwrapperModuleAssets.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* TiViewwrapper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiViewwrapper_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CD0A1425185A3DD000D96B9F /* TiViewwrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiViewwrapperView.h; sourceTree = "<group>"; };
-		CD0A1426185A3DD000D96B9F /* TiViewwrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiViewwrapperView.m; sourceTree = "<group>"; };
-		CD0A1429185A3E0A00D96B9F /* TiViewwrapperViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiViewwrapperViewProxy.h; sourceTree = "<group>"; };
-		CD0A142A185A3E0A00D96B9F /* TiViewwrapperViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiViewwrapperViewProxy.m; sourceTree = "<group>"; };
+		CD0A142D185A48E200D96B9F /* TiViewwrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiViewwrapperView.h; path = Classes/TiViewwrapperView.h; sourceTree = "<group>"; };
+		CD0A142E185A48E200D96B9F /* TiViewwrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiViewwrapperView.m; path = Classes/TiViewwrapperView.m; sourceTree = "<group>"; };
+		CD0A1435185A49A300D96B9F /* TiViewwrapperViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiViewwrapperViewProxy.h; path = Classes/TiViewwrapperViewProxy.h; sourceTree = "<group>"; };
+		CD0A1436185A49A300D96B9F /* TiViewwrapperViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiViewwrapperViewProxy.m; path = Classes/TiViewwrapperViewProxy.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libTiViewwrapper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTiViewwrapper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,10 +105,10 @@
 				24DE9E1011C5FE74003F90F6 /* TiViewwrapperModuleAssets.m */,
 				24DD6CF71134B3F500162E58 /* TiViewwrapperModule.h */,
 				24DD6CF81134B3F500162E58 /* TiViewwrapperModule.m */,
-				CD0A1425185A3DD000D96B9F /* TiViewwrapperView.h */,
-				CD0A1426185A3DD000D96B9F /* TiViewwrapperView.m */,
-				CD0A1429185A3E0A00D96B9F /* TiViewwrapperViewProxy.h */,
-				CD0A142A185A3E0A00D96B9F /* TiViewwrapperViewProxy.m */,
+				CD0A142D185A48E200D96B9F /* TiViewwrapperView.h */,
+				CD0A142E185A48E200D96B9F /* TiViewwrapperView.m */,
+				CD0A1435185A49A300D96B9F /* TiViewwrapperViewProxy.h */,
+				CD0A1436185A49A300D96B9F /* TiViewwrapperViewProxy.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA747D9F0F9514B9006C5449 /* TiViewwrapper_Prefix.pch in Headers */,
-				CD0A1427185A3DD000D96B9F /* TiViewwrapperView.h in Headers */,
+				CD0A142F185A48E200D96B9F /* TiViewwrapperView.h in Headers */,
 				24DD6CF91134B3F500162E58 /* TiViewwrapperModule.h in Headers */,
-				CD0A142B185A3E0A00D96B9F /* TiViewwrapperViewProxy.h in Headers */,
+				CD0A1437185A49A300D96B9F /* TiViewwrapperViewProxy.h in Headers */,
 				24DE9E1111C5FE74003F90F6 /* TiViewwrapperModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,8 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD0A1428185A3DD000D96B9F /* TiViewwrapperView.m in Sources */,
-				CD0A142C185A3E0A00D96B9F /* TiViewwrapperViewProxy.m in Sources */,
+				CD0A1430185A48E200D96B9F /* TiViewwrapperView.m in Sources */,
+				CD0A1438185A49A300D96B9F /* TiViewwrapperViewProxy.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* TiViewwrapperModule.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* TiViewwrapperModuleAssets.m in Sources */,
 			);
